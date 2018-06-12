@@ -4,14 +4,6 @@ var _ = require('lodash');
 
 /*
  * Test of loading a table from a souple of endpoints
- *
- * Properties:
- *  width   horizontal size of bar
- *  height  vertical size of bar
- *  low     low end of data range (default: 0)
- *  high    high end of data range (default: 100)
- *  value   value to display
- *  color   color of the bar (default: red)
  */
 class TableTest extends Component {
   constructor() {
